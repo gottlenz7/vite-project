@@ -1,0 +1,23 @@
+header {
+  border-radius: 5px;
+  background-color: rgb(164, 157, 209);
+  border: 10px;
+  
+}
+
+.filter-box {
+  border-radius: 5px;
+  background-color: rgb(164, 157, 209);
+  border: 10px;
+  color: rgb(31, 24, 75);
+}
+
+.main-box {
+  border-radius: 5px;
+  background-color: rgb(164, 157, 209);
+  border: 10px;
+}
+
+input {
+  color: rgb(32, 29, 56);
+}
