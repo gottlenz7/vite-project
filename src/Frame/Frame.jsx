@@ -1,4 +1,4 @@
-import './Frame.css';
+import styles from './Frame.module.css'
 import React from 'react';
 import Photo from '../Photo/Photo.jsx';
 import Button from '../Button/Button.jsx';
@@ -21,9 +21,9 @@ function Frame({children, title}) {
     });
   
     return (
-      <div className={'frame'}>
-        {<span className="frame-title">{title}</span>}
-        <div className="frame-content">
+      <div className={styles.frame}>
+        {<span className={styles['frame-title']}>{title}</span>}
+        <div className={styles['frame-content']}>
           {elements.photo}
           {elements.text}
           {elements.button}
