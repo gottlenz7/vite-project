@@ -22,3 +22,4 @@ def recipes_from_csv(csv_path: str):
 if __name__ == "__main__":
     csv_path = 'C:/Users/Valeriia/Desktop/web/vite-project/backend/recipes.csv'
     recipes_from_csv(csv_path)
+    
