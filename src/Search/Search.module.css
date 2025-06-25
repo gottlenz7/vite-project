@@ -1,0 +1,21 @@
+.search {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-input {
+    width: 500px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: beige;;
+  }
+  
+  .search-button {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(81, 65, 186);
+    color: beige;
+    border: 1px solid #ddd;
+  }
+  

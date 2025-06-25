@@ -1,0 +1,12 @@
+.frame {
+  border-radius: 5px;
+  background-color: beige;
+  color: rgb(31, 24, 75)
+}
+
+.frame-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
