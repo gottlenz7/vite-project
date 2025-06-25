@@ -1,0 +1,15 @@
+.left {
+    margin: 10px;
+    width: 20%;
+    border-radius: 5px;
+    background-color: rgb(164, 157, 209);
+    border: 10px;
+    color: rgb(31, 24, 75);
+}
+
+@media (max-width: 555px) {
+    .left {
+        width: 40%;
+    }
+  }
+  

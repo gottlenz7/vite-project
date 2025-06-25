@@ -1,0 +1,23 @@
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.img-header {
+    display: flex;
+    max-height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+@media (max-width: 555px) {
+    .img-header {
+        max-height: 30px;
+    }
+}

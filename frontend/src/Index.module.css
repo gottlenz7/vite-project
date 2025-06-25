@@ -1,0 +1,21 @@
+html {
+  font-size: 80%;
+}
+
+.main {
+  display: flex;
+}
+
+header {
+  display: flex;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(164, 157, 209);
+  border: 10px;
+}
+
+@media (max-width: 555px) {
+  header {
+    display: block;
+  }
+}

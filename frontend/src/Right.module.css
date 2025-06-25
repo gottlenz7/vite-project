@@ -1,0 +1,26 @@
+.right {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    place-items: center;
+    height: fit-content;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: beige;;
+    border: 10px;
+    color: rgb(31, 24, 75);
+}
+
+@media (max-width: 555px) {
+    .right {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+  }
+
+@media (max-width: 770px) {
+    .right {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}

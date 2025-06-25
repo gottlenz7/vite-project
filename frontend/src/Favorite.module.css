@@ -1,0 +1,25 @@
+.favorite {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    place-items: center;
+    height: fit-content;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: beige;;
+    border: 10px;
+    color: rgb(31, 24, 75);
+}
+
+@media (max-width: 555px) {
+    .favorite {
+        /* display: flex;
+        flex-direction: column; */
+        grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+
+@media (max-width: 770px) {
+    .favorite {
+        grid-template-columns: repeat(5, 1fr); 
+    }
+}
